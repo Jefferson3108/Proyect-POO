@@ -13,7 +13,7 @@
           <mxGeometry y="26" width="320" height="144" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Product" style="swimlane;fontStyle=0;align=left;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=light-dark(#FF8000,#FF8000);fontColor=#ffffff;strokeColor=light-dark(#006EAF,#000000);" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-504" y="210" width="364" height="316" as="geometry">
+          <mxGeometry x="-504" y="210" width="364" height="320" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hMOmFAutKiFjXkRdDynN-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="hMOmFAutKiFjXkRdDynN-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" source="oq8trVzhFs2xCaBBPb9A-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-136" y="383" as="sourcePoint" />
             <mxPoint x="230" y="380" as="targetPoint" />
@@ -124,9 +124,6 @@
         <mxCell id="hMOmFAutKiFjXkRdDynN-62" value="Methods:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;assign name()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assign age()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assign number()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assign city()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assign email()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;assign password()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;create account()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;validate email()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;validate password()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;validate login()&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=light-dark(#000000,#000000);fillColor=light-dark(#FFB366,#FFB366);fillStyle=solid;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1150" y="196" width="160" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="gZKawcKhAUTIa8w26TKA-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Methods:&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Display Name()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Display Image()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Display Price()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Display Buyer Name()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Display Description()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Display and Calculate Stock()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Display Category Name()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Display Reviews()&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=light-dark(#006EAF,#000000);fillColor=light-dark(#B1DDF0,#FFB366);" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-324" y="250" width="180" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="ri72hVkq9TnGS-etohJp-10" value="Methods:&#xa;&#xa;Generate Payment ID() &#xa;&#xa;Generate payment date()&#xa;&#xa;Identify payment method()&#xa;&#xa; Validate discount coupon()&#xa;&#xa;Validate card numer()&#xa;&#xa;Validate security code()&#xa;&#xa;Deduct card amount()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=light-dark(#FFB366,#FFB366);strokeColor=light-dark(#006EAF,#000000);" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="400" y="274" width="160" height="242" as="geometry" />
         </mxCell>
@@ -152,6 +149,15 @@
               <mxPoint x="590" y="130" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oq8trVzhFs2xCaBBPb9A-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oq8trVzhFs2xCaBBPb9A-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-136" y="383" as="sourcePoint" />
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq8trVzhFs2xCaBBPb9A-0" value="&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Methods:&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Name()&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Display Image()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Price()&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Buyer Name()&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Description()&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Display and Calculate Stock()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Category Name()&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;Display Reviews()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=light-dark(#FFB366,#FFB366);strokeColor=light-dark(#000000,#000000);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-340" y="238" width="200" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
