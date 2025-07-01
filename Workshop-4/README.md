@@ -1,47 +1,46 @@
 # Temmu App 🛒
 
-Este proyecto es una simulación académica de una aplicación de compra y venta (estilo Temu), desarrollada en Java usando **Swing** para la interfaz gráfica. Actualmente solo permite registrar compradores y vendedores e iniciar sesión.
+This project is an academic simulation of a buying and selling application (Temu style), developed in Java using Swing for the graphical interface. Currently, it only allows the registration of buyers and sellers and login.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies used
 
-- **Java SE 17** (puedes usar Java 8+)
-- **Swing** (para GUI)
+- **Java SE 17** (you can use Java 8+)
+- **Swing** (for GUI)
 - **Eclipse IDE** 
-- **Sistema de archivos local (.txt)** como alternativa a una base de datos
+- **Sistema de archivos local (.txt)** as an alternative to a database
 
 ---
 
-## 📁 Estructura del proyecto
+## 📁 Project Structure
 
 ```plaintext
 TemmuApp/
 ├── src/
-│   ├── View/                # Formularios: Loginvw, RgCustomervw, RgSellervw, etc.
-│   ├── Controller/          # Lógica de navegación y validaciones
-│   └── Model/               # Clases de datos y utilidades
-├── data/                    # Archivos .txt con datos persistentes (usuarios, etc.)
+│   ├── View/                # Forms: Loginvw, RgCustomervw, RgSellervw, etc.
+│   ├── Controller/          # Navigation logic and validations
+│   └── Model/               # Data classes and utilities
+├── data/                    # .txt files with persistent data (users, etc.)
 └── README.md
 ```
 ---
 
-## 🚀 Cómo compilar y ejecutar
+## 🚀 How to compile and run
 
-### ✅ Requisitos previos
+### ✅ Requirements
 
-- Java JDK instalado (preferiblemente 11 o superior)
-- Eclipse IDE o cualquier editor de Java
-- Opcional: Git (para clonar el repositorio)
+- Java JDK installed (preferably 11 or higher)
+- Eclipse IDE or any Java editor
+- Optional: Git (to clone the repository)
 
-### 📥 Paso 1: Clona el repositorio
+### 📥 Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Jefferson3108/Proyect-POO/tree/main/Workshop-4/TemmuApp
 cd TemmuApp
 ```
-### 🧱 Paso 2: Importa en Eclipse
-
+### 🧱 Step 2: Import into Eclipse
 1. Open Eclipse  
 2. Go to `File > Import > Existing Projects into Workspace`
 3. Select the folder you just cloned or extracted  
